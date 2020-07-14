@@ -1,6 +1,6 @@
 <script>
 /**
- * data layer variable to handle navigation after the ecommerce data has been sent to Google Analytics.
+ * data layer variable to handle navigation after the ecommerce data has been sent to Google Analytics on /carrinho.
  */
 
   dataLayer.push({

@@ -2,6 +2,7 @@
 // Measure a view of product details. This example assumes the detail view occurs on pageload,
 // and also tracks a standard pageview of the details page.
 dataLayer.push({
+  'event':'productDetailView',
   'ecommerce': {
     'detail': {
       'products': [{

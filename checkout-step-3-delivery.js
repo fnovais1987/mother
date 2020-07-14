@@ -4,7 +4,7 @@
  */
 
   dataLayer.push({
-    'event': 'checkout',
+    'event': 'delivery',
     'ecommerce': {
       'checkout': {
         'actionField': {'step': 3},

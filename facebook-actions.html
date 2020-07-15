@@ -1,0 +1,38 @@
+<!-- FB - VIEWCONTENT dispared in product view page-->
+<script>
+  fbq('track', 'ViewContent', {
+   content_type: 'product',
+   content_ids: '[123]',
+   value: '12.00',
+   currency: 'BRL'
+});
+</script>
+
+
+<!-- FB - ADDTOCART dispared in add to cart action-->
+<script>
+    fbq('track', 'AddToCart', {
+        content_ids: 'product id',
+        content_type: 'product',
+        content_name: 'product name',
+        value: 'product value', //OPTIONAL, but highly recommended
+        currency: 'BRL' //REQUIRED if you pass a value
+    });
+</script>
+
+
+<!-- FB - ADDPAYMENTINFO dispared in payment page-->
+<script>
+  fbq('track', 'AddPaymentInfo');
+</script>
+
+
+<!-- FB - ORDERPLACED dispared in payment page-->
+<script>
+  fbq('track', 'Purchase', {
+   content_type: 'product',
+   content_ids: 'transactionProductsId', //separated by comma
+   value: 'transactionTotal',
+   currency: 'BRL'
+});
+</script>

@@ -7,7 +7,7 @@ dataLayer.push({
     'add': {                                // 'add' actionFieldObject measures.
       'products': [{                        //  adding a product to a shopping cart.
         'name': 'COMBO 4 POTES DE SPORT PROTEIN MORANGO (50% OFF + 5% OFF no boleto)',         // Name or ID is required.
-        'id': '"8756322256745"',
+        'id': '8756322256745',
         'price': '756.00',
         'brand': 'Mother',
         'category': 'Protein',
@@ -27,7 +27,7 @@ dataLayer.push({
     'remove': {                               // 'remove' actionFieldObject measures.
       'products': [{                          //  removing a product to a shopping cart.
         'name': 'COMBO 4 POTES DE SPORT PROTEIN MORANGO (50% OFF + 5% OFF no boleto)',         // Name or ID is required.
-        'id': '"8756322256745"',
+        'id': '8756322256745',
         'price': '756.00',
         'brand': 'Mother',
         'category': 'Protein',
